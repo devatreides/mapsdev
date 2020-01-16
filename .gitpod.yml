@@ -1,0 +1,7 @@
+ports:
+  - port: 3333
+    onOpen: open-preview
+
+tasks:
+  - before: cd backend
+    command: yarn install && yarn dev
