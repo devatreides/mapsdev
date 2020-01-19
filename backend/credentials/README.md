@@ -1,10 +1,11 @@
-# Credentials format
+# Credentials Format
 
 ## Mongoose (MongoDB)
 
-File: `mongoose.json`
+**File: `mongoose.json`**
 
 ```
 {
     "connection": "connectionStringWithUserAndPassword" 
 }
+```
